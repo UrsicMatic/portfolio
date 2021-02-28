@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #6296ea;
+	font-family: Arial;
+	font-size: 22px;
+
+}
+
+#vsebina {	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#canvas {
+	background: #39c272;
+	float: right;
+	border: black solid 2px;
+}
+
+#p1 {
+	top: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+#p2 {
+	position: absolute;
+	bottom: 10px;
+	padding: 5px;
+	text-align: center;
+}
+	
+#menu {
+	font-family: Arial;
+	text-align: center;
+	width: 200px;
+	height: 700px;
+	margin-left: -230px;
+	padding: 10px;
+	border: black solid 2px;
+	background-color: #fdf0dd;
+}
+
+#swal-button-0{
+    background-color:  rgb(231,76,60);
+    color: #fff;
+	width: 150px;
+    border: 2px solid ;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 44px;
+    margin: 0;	
+	margin-top: 52px;
+    cursor: pointer;
+}
+
+#swal-button-1{
+    background-color:  rgb(231,76,60);
+    color: #fff;
+	width: 150px;
+    border: 2px solid ;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 44px;
+    margin: 0;	
+	margin-top: 52px;
+    cursor: pointer;
+}
+
+#swal-button-2{
+    background-color:  rgb(231,76,60);
+    color: #fff;
+	width: 150px;
+    border: 2px solid ;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 44px;
+    margin: 0;	
+	margin-top: 52px;
+    cursor: pointer;
+}
+
+#swal-button-3{
+    background-color:  rgb(231,76,60);
+    color: #fff;
+	width: 150px;
+    border: 2px solid ;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 44px;
+    margin: 0;	
+	margin-top: 52px;
+    cursor: pointer;
+}

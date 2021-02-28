@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta lang="sl-SI" charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>nike</title>
+</head>
+<body>
+    <div class="canvas_polje">
+	
+      <div class="canvas">
+        <canvas id="nikelogo" width="800" height="300"></canvas>
+      </div>
+	 </div>
+	 
+	<div class="nike_bes">
+		 <a href="https://www.nike.com">NIKE</a>
+	</div>
+	  
+	  <div class="svg_polje">
+	  
+      <div class="svg">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+         width="493.000000pt" height="180.000000pt" viewBox="0 0 493.000000 180.000000"
+         preserveAspectRatio="xMidYMid meet">
+          <g transform="translate(0.000000,180.000000) scale(0.100000,-0.100000)"
+          fill="#000000" stroke="none">
+          <path d="M4770 1788 c-665 -186 -3565 -962 -3618 -968 -76 -8 -190 1 -252 21
+          -161 52 -272 175 -301 334 -22 116 10 291 80 448 32 70 39 101 21 95 -18 -6
+          -201 -242 -289 -373 -203 -301 -304 -534 -317 -734 -14 -202 51 -331 220 -436
+          130 -80 278 -110 457 -94 238 22 300 46 1954 761 1737 751 2108 914 2113 927
+          3 7 -1 17 -9 22 -16 10 -13 10 -59 -3z"/>
+          </g>
+        </svg>
+      </div>
+	  
+    </div>
+	
+	
+	
+    <script type="text/javascript">
+      var c = document.getElementById("nikelogo");
+      var ctx = c.getContext("2d");
+
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = "#FFFFFF";
+      ctx.fillStyle = "#000000";
+      ctx.lineJoin= "round";
+
+      ctx.beginPath();
+      ctx.moveTo(160, 40);
+	  ctx.bezierCurveTo(110, 120, 130, 180, 225, 155);
+	  ctx.lineTo(775,25);
+	  ctx.lineTo(200,250);
+      ctx.bezierCurveTo(20, 300, 40, 150, 160, 40);
+      ctx.fill();
+      ctx.stroke();
+    </script>
+</body>
+</html>

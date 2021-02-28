@@ -1,0 +1,123 @@
+body{
+    background-image: url('grey_plate.gif');
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.svg_polje{
+	margin: 0 auto;
+	width:493.000000pt ;
+	height:180.000000ptpx;
+	margin-top: 230px;
+	
+}
+.canvas_polje{
+	margin: 0 auto;
+	width:800px ;
+	height:300px;
+
+}
+.nike_bes{
+	position: absolute;
+	margin-left: 30%;
+	
+}
+a{
+  position: absolute;
+  text-decoration: none;
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  display: inline-block;
+  font-size: 90px;
+  font-family:'Impact';
+  color: #FFFFFF;
+}
+a:before{
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 4px solid transparent;
+}
+a:before{
+  animation: animate 1s linear forwards;
+}
+@keyframes animate{
+  0%{
+    width: 0;
+    height: 0;
+    border-top-color: #262626;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  50%{
+    width: 100%;
+    height: 0;
+    border-top-color: #262626;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #262626;
+  }
+  100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: #262626;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #262626;
+  }
+}
+
+a:after{
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 4px solid transparent;
+}
+a:after{
+  animation: animate2 1s linear forwards;
+  animation-delay: 1s;
+}
+@keyframes animate2{
+  0%{
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #262626;
+    border-right-color: transparent;
+  }
+  50%{
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #262626;
+    border-left-color: #262626;
+    border-right-color: transparent;
+  }
+  100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #262626;
+    border-left-color: #262626;
+    border-right-color: transparent;
+  }
+}
